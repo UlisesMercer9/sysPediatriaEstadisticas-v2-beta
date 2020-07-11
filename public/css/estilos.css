@@ -1,0 +1,249 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+
+   
+.logo {
+	margin: 0%;
+	padding: 0%;
+  overflow: hidden;
+}
+
+p {
+  margin: 0px;
+}
+
+#opcion1 {
+  height: 80px;
+}
+
+#opcion2 {
+  height: 80px;
+}
+
+.opcion3 {
+  padding-top: 80px;
+}
+
+
+.mobil-1{
+  padding-top: 30px;
+}
+
+.mobil-2{
+  padding-top: 10px;
+}
+
+
+ .input-field2 input {
+   border-bottom: 1px solid red !important;
+   box-shadow: 0 1px 0 0 red !important
+ }
+
+
+.banner {
+	position: fixed;
+	z-index: 10;
+  height: 80px;
+}
+
+.menu{
+	position: relative;
+	z-index: 5;
+}
+
+.menu-mobile{
+  
+}
+
+.no-border{
+  box-shadow: none;
+  border-style: none;
+}
+
+    main, footer {
+      padding-left: 240px;
+    }
+
+    @media only screen and (max-width : 992px) {
+     main, footer {
+        padding-left: 0;
+      }
+      #banner {
+        padding-right: 100px;
+      }
+    }
+
+#blank-space{
+	margin-bottom: 85px;
+}
+
+#spacer{
+  margin-top: 150px;
+}
+
+#logo{
+  margin-left: 65px;
+}
+
+.search{
+	
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.radius{
+  border-radius: 10px;
+}
+
+.user-image{
+	width: 50px;
+	height: 50px;
+
+}
+
+.user-image-2{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.user-image-3{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.mobil-space{
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.space{
+	padding-top: 15px;
+
+}
+
+.space2{
+  margin-bottom:25px;
+}
+
+.search-margin{
+	margin-bottom: 20px;
+}
+
+.scale:hover{
+  transform: scale(1.1);
+}
+
+.margin{
+	margin-bottom: 80px;
+}
+
+.opcion:hover{
+	border-left: 6px solid #880e4f;
+    color: white;
+}
+
+.form-title{
+  padding: 20px;
+}
+
+.img{
+	width: 60px;
+	height: 60px;
+ 
+	
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/* label color */
+   .input-field label {
+     color: #white;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #white;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #880e4f ;
+   }  
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FontAwesome'),
+       local('fontawesome-webfont'),
+       url(../font/font-awesome-icons/fontawesome-webfont.woff2) format('woff2'),
+       url(../font/font-awesome-icons/fontawesome-webfont.woff) format('woff'),
+       url(../font/font-awesome-icons/fontawesome-webfont.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../font/material-design-icons/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../font/material-design-icons/MaterialIcons-Regular.woff) format('woff'),
+       url(../font/material-design-icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-../font/material-design-icons
+
